@@ -91,4 +91,4 @@ data_summary_mean = summarize_each(all_data_by_subject_activity, funs(mean))
                               
 
 # Saving average data to data_summary_mean.csv file
-write.table(data_summary_mean, "data_summary_mean.csv", row.name=FALSE)
+write.table(data_summary_mean, "data_summary_mean.txt", row.name=FALSE)
