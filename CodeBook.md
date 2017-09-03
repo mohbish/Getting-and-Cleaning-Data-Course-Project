@@ -6,13 +6,18 @@
 * Subject: The ID of the test subject
 * Activity Label: he type of activity performed when the corresponding measurements were taken
 
-# Transformations
 
-1. Merges the training and the test sets to create one data set.
-1. Extracts only the measurements on the mean and standard deviation for each measurement.
-1. Uses descriptive activity names to name the activities in the data set
-1. Appropriately labels the data set with descriptive variable names.
-1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* set_train <- measurements training set
+* label_train <- activity labels training set
+* subject_train <- subjects training set
+* set_test <- measurements test set
+* label_test <- activity labels test set
+* subject_test <- subjects test set
+
+* all_data <- combined data of all the above sets
+* all_data_by_subject_activity <- all data grouped by subject and activity
+* data_summary_mean <- average measurements per subject per activit
+
 
 # Activity Labels
 
