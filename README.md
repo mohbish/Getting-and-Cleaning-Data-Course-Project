@@ -29,5 +29,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  
  # Project Output files
  
- 1. project_script.r: R file with the source code of the project
- 2. data_summary_mean.csv: comma-separated file with the cleansed and summarized output
+ 1. run_analysis.R: R file with the source code of the project
+ 2. data_summary_mean.txt: comma-separated file with the cleansed and summarized output
